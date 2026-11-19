@@ -1,0 +1,235 @@
+body{
+    text-align: center;
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1{
+    color: red;
+}
+
+.caja{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+    
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ header{
+    background-color: rgba(2, 78, 122, 0.968);
+    text-align: center;
+    padding: 25px; ;
+  }
+
+  nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(30, 23, 23);
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-weight:bold
+  }
+nav a:hover{
+    border-color: rgb(167, 88, 88);
+    color: azure;
+ }
+ .encabezado-img{
+background-image:url(fondo\ alex\ d.jpg);
+background-size: cover;
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: rgb(214, 201, 201);
+padding: 35px;
+ }
+.encabezado-img{
+    font-size: 20px;
+ }
+ .encabezado-img h1{
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+
+section{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.bg1{
+    background-color: rgb(240, 238, 235);
+}
+
+.bg2{
+    background-color: rgb(175, 241, 241);
+}
+
+.bg3{
+    background-color: rgb(255, 255, 207);
+}
+
+section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #35301d;
+}
+
+section p{
+    color: #1d1b11;
+    max-width: 600px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+}
+
+.galeria .item{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(73,33,33);
+    transition: transform 0.3s;
+}
+.galeria .item:hover{
+    transform: scale(1.07);
+ }
+ .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+ 
+
+/* Navegación entre secciones */
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(2, 78, 122, 0.968);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Corrección del efecto hover de las imágenes */
+.galeria .item:hover {
+    transform: scale(1.07);
+}
+
+/* DISEÑO DEL FORMULARIO DE CONTACTO */
+
+#contacto {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenedor-formulario {
+    background-color: #ffffff;
+    max-width: 500px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #167a42;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+.contenedor-formulario h3 {
+    color: #167a42;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    text-align: left;
+}
+
+.formulario-contacto label {
+    font-weight: bold;
+    color: #333333;
+    font-size: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    border: 2px solid #167a42;
+    outline: none;
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+}
+
+.formulario-contacto button {
+    background-color: #167a42;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.formulario-contacto button:hover {
+    background-color: #105b30;
+    transform: scale(1.02);
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
